@@ -7,13 +7,13 @@ export default function Projects() {
 
     const projects = [
         {
-            title: 'E-Commerce Platform',
-            description: 'A full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.',
-            image: '/api/placeholder/600/400',
-            tags: ['Next.js', 'MongoDB', 'Stripe', 'Tailwind'],
+            title: 'Do Flow',
+            description: 'A beautiful, intuitive to-do list app with smart features, smooth animations, and everything you need to stay productive.',
+            image: '',
+            tags: ['Next.js', 'SupaBase', 'TypeScript', 'Tailwind'],
             category: 'fullstack',
-            link: '#',
-            github: '#',
+            link: 'https://doflow-todolist.vercel.app/',
+            github: 'https://github.com/atharva-dev1/doflow',
         },
         {
             title: '3D Portfolio Website',
@@ -25,13 +25,13 @@ export default function Projects() {
             github: '#',
         },
         {
-            title: 'Task Management App',
-            description: 'Real-time collaborative task management with drag-and-drop, notifications, and team features.',
+            title: 'PDF to Flipbook',
+            description: 'A simple and interactive PDF to Flipbook web application built using HTML, CSS, and JavaScript. This project converts a static PDF into a realistic flipbook-style viewing experience directly in the browser.',
             image: '/api/placeholder/600/400',
-            tags: ['React', 'Node.js', 'Socket.io', 'PostgreSQL'],
-            category: 'fullstack',
-            link: '#',
-            github: '#',
+            tags: ['HTML5', 'CSS3', 'JavaScript', 'PDF.js'],
+            category: 'Frontend',
+            link: 'https://pdf-to-flipbook.netlify.app/',
+            github: 'https://github.com/atharva-dev1/pdf-to-flipbook',
         },
         {
             title: 'AI Chat Application',

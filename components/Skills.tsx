@@ -5,7 +5,10 @@ export default function Skills() {
         {
             title: 'Frontend',
             skills: [
-                { name: 'React', level: 95 },
+                { name: 'HTML', level: 95 },
+                { name: 'CSS', level: 95 },
+                { name: 'React.js', level: 90 },
+                { name: 'Vue.js', level: 85 },
                 { name: 'Next.js', level: 90 },
                 { name: 'TypeScript', level: 88 },
                 { name: 'Tailwind CSS', level: 92 },
@@ -19,17 +22,19 @@ export default function Skills() {
                 { name: 'Express', level: 85 },
                 { name: 'MongoDB', level: 82 },
                 { name: 'MySQL', level: 80 },
-                { name: 'PostgreSQL', level: 78 },
+                { name: 'Oracle', level: 78 },
             ],
         },
         {
             title: 'Tools & Others',
             skills: [
-                { name: 'Git', level: 93 },
+                { name: 'VS Code', level: 93 },
+                { name: 'Pycharm', level: 93 },
+                { name: 'Git & Github', level: 93 },
                 { name: 'Docker', level: 80 },
                 { name: 'AWS', level: 75 },
+                { name: 'Canva', level: 85 },
                 { name: 'Figma', level: 85 },
-                { name: 'CI/CD', level: 78 },
             ],
         },
     ];
